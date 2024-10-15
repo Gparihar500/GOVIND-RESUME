@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind Ahirwar CV</title>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #004aad;
+            text-shadow: 2px 2px #f0f2f5;
+        }
+        h2 {
+            border-bottom: 2px solid #004aad;
+            padding-bottom: 5px;
+            color: #0056b3;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .info div {
+            margin: 10px 0;
+        }
+        .skills, .experience, .education {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .personal-details, .software-skills {
+            margin-top: 20px;
+        }
+        .personal-details li, .software-skills li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .highlight {
+            background-color: #e0f7fa;
+            border-radius: 5px;
+            padding: 2px 5px;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #004aad;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info div {
+            flex: 1;
+            padding: 10px;
+        }
+        .contact-info a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #0056b3;
+        }
+        .section-header i {
+            margin-right: 10px;
+        }
+        /* New Profile Image and Section Background Colors */
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            background-color: #e3f2fd;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .career-section {
+            background-color: #fce4ec;
+        }
+        .education-section {
+            background-color: #f3e5f5;
+        }
+        .experience-section {
+            background-color: #e0f7fa;
+        }
+        .skills-section {
+            background-color: #f1f8e9;
+        }
+        .personal-section {
+            background-color: #fff3e0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Photo Section -->
+        <div class="header">
+            <img src="Profile.png" alt="Govind Ahirwar" class="profile-pic">
+            <h1>Govind Ahirwar</h1>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-home icon"></i>
+                    128/1, Nipaniya Khanjar, Tehsil Kalapipal, Post Khardon Khurd, District Shajapur, MP 465337
+                </div>
+                <div>
+                    <i class="fas fa-envelope icon"></i>
+                    <a href="mailto:Gparihar500@gmail.com" class="highlight">Gparihar500@gmail.com</a>
+                </div>
+                <div>
+                    <i class="fas fa-phone icon"></i>
+                    <span class="highlight">+91 7879294788</span>
+                </div>
+                <div>
+                    <i class="fab fa-linkedin icon"></i>
+                    <a href="http://www.linkedin.com/in/govind-ahirwar-a18691124" target="_blank">Govind's LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section career-section">
+            <div class="section-header">
+                <i class="fas fa-user-tie"></i>
+                <h2>Career Objective</h2>
+            </div>
+            <p>Highly organized and detail-oriented professional seeking a challenging position. Problem-solving ability and a proven track record of delivering results in a fast-paced office environment.</p>
+        </div>
+
+        <div class="section education-section">
+            <div class="section-header">
+                <i class="fas fa-graduation-cap"></i>
+                <h2>Educational Qualification</h2>
+            </div>
+            <ul class="education">
+                <li><b>B.Sc (Computer Science)</b> from Barkatullah University, Bhopal (2013 – 2016)</li>
+                <li><b>PGDCA</b> from Makhan Lal Chaturvedi University, Bhopal</li>
+                <li><b>MBA in IT</b> (Pursuing)</li>
+            </ul>
+        </div>
+
+        <div class="section experience-section">
+            <div class="section-header">
+                <i class="fas fa-briefcase"></i>
+                <h2>Experience</h2>
+            </div>
+            <ul class="experience">
+                <li><b>Housekeeping Supervisor</b> at VIT University with SMC Integrated Facility Management (Jun 2019 - Oct 2021)</li>
+                <li><b>Customer Support Executive</b> at Technotask Business Solution, Bhopal (Apr 2022 - Feb 2024)</li>
+                <li><b>Office Executive</b> at SMC Integrated Facility Management (Jan 2023 - Aug 2024)</li>
+            </ul>
+        </div>
+
+        <div class="section skills-section">
+            <div class="section-header">
+                <i class="fas fa-cogs"></i>
+                <h2>Technical Skills</h2>
+            </div>
+            <ul class="skills">
+                <li><i class="fas fa-check icon"></i> Handling Site Operation</li>
+                <li><i class="fas fa-check icon"></i> Staff Deployment</li>
+                <li><i class="fas fa-check icon"></i> Customer Satisfaction</li>
+                <li><i class="fas fa-check icon"></i> Problem Solving</li>
+                <li><i class="fas fa-check icon"></i> Office Administration</li>
+                <li><i class="fas fa-check icon"></i> MS Office</li>
+            </ul>
+        </div>
+
+        <div class="section personal-section">
+            <div class="section-header">
+                <i class="fas fa-id-card"></i>
+                <h2>Personal Details</h2>
+            </div>
+            <ul class="personal-details">
+                <li><i class="fas fa-user icon"></i> <b>Name:</b> Govind Ahirwar</li>
+                <li><i class="fas fa-birthday-cake icon"></i> <b>Date of Birth:</b> 10 January 1995</li>
+                <li><i class="fas fa-language icon"></i> <b>Languages:</b> English & Hindi</li>
+                <li><i class="fas fa-flag icon"></i> <b>Nationality:</b> Indian</li>
+                <li><i class="fas fa-heart icon"></i> <b>Marital Status:</b> Unmarried</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
